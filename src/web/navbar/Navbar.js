@@ -36,17 +36,17 @@ export default function Navbar() {
                         </Link>
                     </li>
                     <li className="nav-link">
-                        <Link className="nav-link" to="home" smooth={true} duration={1000} >
+                        <Link className="nav-link" to="about" smooth={true} duration={1000} >
                             About
                         </Link>
                     </li>
                     <li className="nav-link">
-                        <Link className="nav-link" to="home" smooth={true} duration={1000} >
+                        <Link className="nav-link" to="projects" smooth={true} duration={1000} >
                             Projects
                         </Link>
                     </li>
                     <li className="nav-link">
-                        <Link className="nav-link" to="home" smooth={true} duration={1000} >
+                        <Link className="nav-link" to="contact" smooth={true} duration={1000} >
                             Contact
                         </Link>
                     </li>

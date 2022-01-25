@@ -1,6 +1,7 @@
 import "./Style.css";
 import Navbar from "./navbar/Navbar";
 import Home from "./home/Home";
+import About from "./about/About";
 
 export default function Main() {
 
@@ -9,6 +10,8 @@ export default function Main() {
             <Navbar />
             <div id="home" />
             <Home />
+            <div id="about" />
+            <About />
         </div>
     )
 }
