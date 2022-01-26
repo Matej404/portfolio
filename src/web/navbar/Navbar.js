@@ -31,22 +31,22 @@ export default function Navbar() {
             {(toggleMenu || screenWidth > 768) && (<div className="nav-container">
                 <ul className="nav-menu">
                     <li className="nav-link">
-                        <Link className="nav-link" to="home" smooth={true} duration={1000} >
+                        <Link className="nav-link" to="home" smooth={true} duration={1000} onClick={toggleNav}>
                             Home
                         </Link>
                     </li>
                     <li className="nav-link">
-                        <Link className="nav-link" to="about" smooth={true} duration={1000} >
+                        <Link className="nav-link" to="about" smooth={true} duration={1000} onClick={toggleNav}>
                             About
                         </Link>
                     </li>
                     <li className="nav-link">
-                        <Link className="nav-link" to="projects" smooth={true} duration={1000} >
+                        <Link className="nav-link" to="projects" smooth={true} duration={1000} onClick={toggleNav}>
                             Projects
                         </Link>
                     </li>
                     <li className="nav-link">
-                        <Link className="nav-link" to="contact" smooth={true} duration={1000} >
+                        <Link className="nav-link" to="contact" smooth={true} duration={1000} onClick={toggleNav}>
                             Contact
                         </Link>
                     </li>
@@ -54,7 +54,7 @@ export default function Navbar() {
                 
             </div>)}
                 <div className="nav-btn">
-                    <a className="nav-btn-link" href="https://github.com/Matej404" target="_blank">GitHub</a>
+                    <a className="nav-btn-link" href="https://github.com/Matej404" target="_blank" rel="noreferrer">GitHub</a>
                 </div>
         </div>
     )
