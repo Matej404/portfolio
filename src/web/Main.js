@@ -2,6 +2,7 @@ import "./Style.css";
 import Navbar from "./navbar/Navbar";
 import Home from "./home/Home";
 import About from "./about/About";
+import Projects from "./projects/Projects";
 
 export default function Main() {
 
@@ -12,6 +13,8 @@ export default function Main() {
             <Home />
             <div id="about" />
             <About />
+            <div id="projects" />
+            <Projects />
         </div>
     )
 }
