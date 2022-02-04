@@ -3,6 +3,7 @@ import Navbar from "./navbar/Navbar";
 import Home from "./home/Home";
 import About from "./about/About";
 import Projects from "./projects/Projects";
+import Contact from "./contact/Contact";
 
 export default function Main() {
 
@@ -15,6 +16,8 @@ export default function Main() {
             <About />
             <div id="projects" />
             <Projects />
+            <div id="contact" />
+            <Contact />
         </div>
     )
 }

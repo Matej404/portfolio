@@ -33,8 +33,8 @@ export const projects = [
         id: "slider",
         icon: <BsSliders className='project-icon' />,
         name: "Image Slider App",
-        ghPages: "https://matej404.github.io/Image-slider/",
-        ghCode: "https://github.com/Matej404/Image-slider",
+        ghPages: "https://matej404.github.io/Img-slider/",
+        ghCode: "https://github.com/Matej404/Img-slider",
         techStack:"JavaScript, CSS, HTML5",
         about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },

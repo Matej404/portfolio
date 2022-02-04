@@ -32,8 +32,8 @@ export default function about() {
                         </p>
                         <p>
                             I am a developer because I'm inspired to be a better me today then 
-                            I was yesterdey. Put simply, I love to learn and ...............
-                            are great example of that.
+                            I was yesterday. Put simply, I love to learn and coding
+                            is great example of that.
                         </p>
                     </div>
                  </Fade>

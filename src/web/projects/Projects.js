@@ -26,7 +26,7 @@ export default function Projects() {
                                 <div className="project" onClick={(e) => handlePopUp(e, id)}>
                                     {icon}
                                     <h3>{name}</h3>
-                                    <span>WIEW DETAILS</span>
+                                    <span>VIEW DETAILS</span>
                                 </div>
                             </Flip>
                             {popUp === id ? (
