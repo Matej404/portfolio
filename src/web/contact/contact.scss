@@ -11,6 +11,33 @@
     }
 }
 
+.pop-up-message {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 32px 3px rgba(0, 0, 0, 0.8);
+    position: fixed;
+    max-width: 500px;
+    background-color: rgb(49, 47, 47);
+    z-index: 100;
+    left: calc((50vw - 50%) * -1);
+    top: calc((50vh - 50%) * -1);
+    transform: translate(calc(50vw - 50%), calc(50vh - 50%));
+    .close-message {
+        top: 10px;
+        right: 10px;
+        position: absolute;
+        cursor: pointer;
+    }
+    p {
+        margin-top: 20px;
+        height: 35px;
+    }
+    @media screen and (max-width: 600px) {
+        margin: 10px 0;
+        
+    }
+}
+
 .contact-container {
     width: 100%;
     display: flex;
