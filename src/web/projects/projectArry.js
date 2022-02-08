@@ -1,4 +1,4 @@
-import {BsFillChatLeftDotsFill, BsFillCalculatorFill, BsBlockquoteLeft, BsSliders} from 'react-icons/bs';
+import {BsFillChatLeftDotsFill, BsBlockquoteLeft, BsSliders} from 'react-icons/bs';
 import {MdPassword} from 'react-icons/md';
 
 export const projects = [
@@ -10,15 +10,6 @@ export const projects = [
         ghCode: "https://github.com/Matej404/chat",
         techStack:"React, Node.js",
         about: "When app is started it generates You a random name and random color. To have multiple users online You need to open the app in multiple tabs. Scaledrone Chat Service used. Scaledrone provides features like realtime messaging, message history and user presence so you can focus on the business logic."
-    },
-    {
-        id: "calc",
-        icon: <BsFillCalculatorFill className='project-icon' />,
-        name: "Calculator App",
-        ghPages: "https://matej404.github.io/Calculator-App/",
-        ghCode: "https://github.com/Matej404/Calculator-App",
-        techStack:"JavaScript, CSS, HTML5",
-        about: "App has the option of addition, subtraction, multiplication and division."
     },
     {
         id: "quote",
