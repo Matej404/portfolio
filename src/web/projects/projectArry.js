@@ -1,7 +1,17 @@
 import {BsFillChatLeftDotsFill, BsBlockquoteLeft, BsSliders} from 'react-icons/bs';
 import {MdPassword} from 'react-icons/md';
+import { CgGym } from 'react-icons/cg';
 
 export const projects = [
+    {
+        id: "gym",
+        icon: <CgGym className='project-icon' />,
+        name: "Gym Website",
+        ghPages: "https://matej404.github.io/TimGym/",
+        ghCode: "https://github.com/Matej404/TimGym",
+        techStack:"React, React-router-dom, Node.js",
+        about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
     {
         id: "chat",
         icon: <BsFillChatLeftDotsFill className='project-icon' />,
