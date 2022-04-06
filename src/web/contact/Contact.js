@@ -48,13 +48,13 @@ export default function Contact() {
                             <div className="icon">
                                 <BsTelephoneFill />                         
                             </div>
-                            <p>+4407547381355</p>
+                            <p><a href="tel:+447547381355">+4407547381355</a></p>
                         </div>
                         <div className="contact-information">
                             <div className="icon">
                                 <AiOutlineMail />                           
                             </div>
-                            <p>matejjurin278@gmail.com</p>
+                            <p><a href="mailto:matejjurin278@gmail.com">matejjurin278@gmail.com</a></p>
                         </div>
                         <div className="contact-information">
                             <div className="icon">

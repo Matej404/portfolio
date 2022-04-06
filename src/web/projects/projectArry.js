@@ -1,8 +1,17 @@
-import {BsFillChatLeftDotsFill, BsBlockquoteLeft, BsSliders} from 'react-icons/bs';
+import {BsFillChatLeftDotsFill, BsBlockquoteLeft, BsSliders, BsSpotify} from 'react-icons/bs';
 import {MdPassword} from 'react-icons/md';
 import { CgGym } from 'react-icons/cg';
 
 export const projects = [
+    {
+        id: "spotify",
+        icon: <BsSpotify className='project-icon' />,
+        name: "Spotify",
+        ghPages: "https://matej404.github.io/Spotify/",
+        ghCode: "https://github.com/Matej404/Spotify",
+        techStack:"React, React-router-dom, Node.js",
+        about: "This website is still in process. I am copying the look and functionality of the actual Spotify website here but, I am using my own code."
+    },
     {
         id: "gym",
         icon: <CgGym className='project-icon' />,
@@ -10,7 +19,7 @@ export const projects = [
         ghPages: "https://matej404.github.io/TimGym/",
         ghCode: "https://github.com/Matej404/TimGym",
         techStack:"React, React-router-dom, Node.js",
-        about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        about: "I made a gym website here. I didn't have enough details and pictures about the gym, but I used everything I had."
     },
     {
         id: "chat",
@@ -28,7 +37,7 @@ export const projects = [
         ghPages: "https://matej404.github.io/Quote-machine-react/",
         ghCode: "https://github.com/Matej404/Quote-machine-react",
         techStack:"React, Node.js",
-        about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        about: "This was suggestion from freeCodeCamp. I used my own code."
     },
     {
         id: "slider",
