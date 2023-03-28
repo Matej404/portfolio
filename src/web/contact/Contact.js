@@ -48,7 +48,7 @@ export default function Contact() {
                             <div className="icon">
                                 <BsTelephoneFill />                         
                             </div>
-                            <p><a href="tel:+447547381355">+4407547381355</a></p>
+                            <p><a href="tel:+447547381355">+447547381355</a></p>
                         </div>
                         <div className="contact-information">
                             <div className="icon">
@@ -60,7 +60,7 @@ export default function Contact() {
                             <div className="icon">
                                 <GoLocation />                            
                             </div>
-                            <p>45 Matheson Road, W14 8SN</p>
+                            <p>105 Gloucester Place, W1U 6AW</p>
                         </div>
                     </div>
                     <div className="contact-form-container">
