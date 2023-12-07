@@ -60,7 +60,7 @@ export default function Contact() {
                             <div className="icon">
                                 <GoLocation />                            
                             </div>
-                            <p>105 Gloucester Place, W1U 6AW</p>
+                            <p>5A Kenway Road, London, SW5 0RP</p>
                         </div>
                     </div>
                     <div className="contact-form-container">

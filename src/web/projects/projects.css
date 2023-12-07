@@ -1,21 +1,11 @@
 .projects {
-  background-color: #0c0414;
+  background-color: rgb(12, 4, 20);
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
 .projects h1 {
   margin-top: 80px;
   font-size: 40px;
@@ -23,72 +13,48 @@
 }
 
 .project-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .project {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 300px;
   height: 300px;
   border-radius: 20px;
   margin: 20px;
   padding: 20px;
-  background: #312f2f;
+  background: rgb(49, 47, 47);
   text-align: center;
   cursor: pointer;
-  -webkit-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
 }
-
 .project .project-icon {
   font-size: 100px;
   color: white;
 }
-
 .project h3 {
   margin: 15px;
   font-size: 25px;
   color: orange;
 }
-
 .project span {
   opacity: 0;
   font-size: 15px;
   font-weight: bold;
 }
-
 .project:hover {
-  background-color: #525252;
-  -webkit-box-shadow: 0 0 25px 5px #8585fa;
-          box-shadow: 0 0 25px 5px #8585fa;
+  background-color: rgb(82, 82, 82);
+  box-shadow: 0 0 25px 5px rgb(133, 133, 250);
 }
-
 .project:hover span {
   opacity: 1;
 }
-
 @media screen and (max-width: 600px) {
   .project {
     width: 250px;
@@ -99,18 +65,15 @@
 .pop-up {
   padding: 20px;
   border-radius: 5px;
-  -webkit-box-shadow: 0px 0px 32px 3px rgba(0, 0, 0, 0.8);
-          box-shadow: 0px 0px 32px 3px rgba(0, 0, 0, 0.8);
+  box-shadow: 0px 0px 32px 3px rgba(0, 0, 0, 0.8);
   position: fixed;
   max-width: 500px;
-  background-color: #312f2f;
+  background-color: rgb(49, 47, 47);
   z-index: 100;
   left: calc((50vw - 50%) * -1);
   top: calc((50vh - 50%) * -1);
-  -webkit-transform: translate(calc(50vw - 50%), calc(50vh - 50%));
-          transform: translate(calc(50vw - 50%), calc(50vh - 50%));
+  transform: translate(calc(50vw - 50%), calc(50vh - 50%));
 }
-
 .pop-up .close {
   position: relative;
   color: black;
@@ -118,7 +81,6 @@
   float: right;
   cursor: pointer;
 }
-
 @media screen and (max-width: 600px) {
   .pop-up {
     width: 80vw;
@@ -130,43 +92,26 @@
   text-align: center;
   width: 100%;
   height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
 .pop-up-content .project-icon {
   font-size: 100px;
   color: white;
   margin-bottom: 20px;
 }
-
 .pop-up-content h1 {
   margin: 10px 0;
   color: #fcbf49;
 }
-
 .pop-up-content div {
   margin-top: 20px;
   width: 300px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
-
 .pop-up-content div a {
   color: white;
   text-decoration: none;
@@ -174,22 +119,17 @@
   background: #7066ff;
   border-radius: 50px;
 }
-
 .pop-up-content div a:hover {
   color: black;
   background: white;
 }
-
 .pop-up-content h3 {
   margin: 20px 0;
 }
-
 .pop-up-content h3 span {
   color: #7066ff;
 }
-
 .pop-up-content p {
   padding: 5px;
   height: 150px;
-}
-/*# sourceMappingURL=projects.css.map */
+}/*# sourceMappingURL=projects.css.map */
